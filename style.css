@@ -1,0 +1,65 @@
+/* Custom styles for this page */
+.login-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+}
+
+.login-form {
+    background-color: #FFFFFF;
+    padding: 100px;
+    position: relative;
+
+}
+
+.login-content {
+    background-image: url('https://via.placeholder.com/3077x1823');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h6 {
+    color: #A3AED0;
+    font-size: 16px;
+    font-family: DM Sans;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top:-2%;
+}
+
+.btn btn-link{
+    padding: 10px;
+}
+
+.btn-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.footer{
+    position: absolute;
+    margin-left: 8%;
+    margin-top: -2%;
+    color: #A3AED0;
+    font-size: 14px;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.h2{
+    color: #2B3674;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700, bold;
+    line-height: 56px;
+    word-wrap: break-word
+}
