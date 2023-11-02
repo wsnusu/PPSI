@@ -41,6 +41,7 @@
     left: 0;
     margin-top: 2%;
     margin-left: 5%;
+    color: #A3AED0;
 }
 
 .footer{
@@ -62,4 +63,96 @@
     font-weight: 700, bold;
     line-height: 56px;
     word-wrap: break-word
+}
+
+.form-control{
+    border-radius: 10px;
+}
+
+.form-check-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 140px; /* Atur jarak antara "Keep me logged in" dan "Forgot password" sesuai kebutuhan */
+}
+
+.btn-forgot {
+    display: inline-block;
+    vertical-align: middle;
+    color: #4318FF;
+    font-weight: bold;
+}
+.btn-reg {
+    display: inline-block;
+    vertical-align: middle;
+    color: #4318FF;
+    font-weight: bold;
+    margin: top -3px;
+}
+
+.form-check-input{
+    margin-top: 11px;
+    color: #4318FF;
+}
+
+.btn-login {
+    background-color: #4318FF;
+    color: #fff; /* Warna teks tombol */
+    padding: 10px 20px; /* Atur ukuran tombol sesuai kebutuhan Anda */
+    border: none;
+    border-radius: 10px; /* Atur radius sudut tombol sesuai kebutuhan Anda */
+    cursor: pointer;
+    width: 500px;
+    height: 45px;
+    margin-bottom: 25px;
+}
+
+.btn-google {
+    background-color: #f0f0f0; /* Warna abu-abu */
+    color: #333; /* Warna teks tombol */
+    padding: 10px 20px; /* Atur ukuran tombol sesuai kebutuhan Anda */
+    border: none;
+    border-radius: 10px; /* Atur radius sudut tombol sesuai kebutuhan Anda */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 45px;
+}
+
+.btn-google i {
+    margin-left: 10px; /* Atur jarak antara teks dan ikon Google */
+    font-size: 20px; /* Atur ukuran ikon Google sesuai kebutuhan Anda */
+}
+
+.imgiggl{
+    margin-right: 3px;
+}
+
+.divider-line {
+    border-top: 1px solid #ccc; /* Warna dan ketebalan garis dapat disesuaikan */
+    margin: 20px 0; /* Atur jarak di atas dan di bawah garis */
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #A3AED0; /* Warna teks "or" sesuai kebutuhan Anda */
+    font-size: 16px; /* Ukuran teks "or" sesuai kebutuhan Anda */
+    margin: 10px 0; /* Atur jarak di atas dan di bawah teks "or" */
+    margin-right: 4%;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-top: 1px solid #ccc; /* Warna dan ketebalan garis dapat disesuaikan */
+    margin: 2%;
+    
+}
+
+.card-invisible {
+    display: none;
 }
